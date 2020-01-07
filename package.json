@@ -1,0 +1,24 @@
+{
+  "name": "electron-worker-thread-sandbox",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ferenc Czina"
+  },
+  "keywords": [
+    "electron",
+    "worker thread",
+    "asara"
+  ],
+  "main": "./main.js",
+  "private": false,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "electron:windows": "electron-builder build --windows"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "7.1.2",
+    "electron-builder": "22.2.0"
+  }
+}
